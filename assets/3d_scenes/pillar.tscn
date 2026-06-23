@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cying5i6v5181"]
+
+[ext_resource type="PackedScene" uid="uid://c07x7hj0ex5e5" path="res://assets/brackeys_3d_game_assets/dungeon_assets/building/pillar.glb" id="1_eqw8h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_li4fu"]
+size = Vector3(1.63, 4.56, 1.63)
+
+[node name="pillar" type="StaticBody3D" unique_id=1257423135]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1907623883]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016992271, 1.78, 0.015917957)
+shape = SubResource("BoxShape3D_li4fu")
+
+[node name="pillar" parent="." unique_id=672082000 instance=ExtResource("1_eqw8h")]

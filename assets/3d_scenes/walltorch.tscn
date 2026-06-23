@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cnpd0not16hbh"]
+
+[ext_resource type="PackedScene" uid="uid://d3lcmbvdm1ivs" path="res://assets/brackeys_3d_game_assets/dungeon_assets/props/torch_mounted.glb" id="1_rq8lj"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i8hmv"]
+
+[node name="walltorch" type="StaticBody3D" unique_id=210661820]
+
+[node name="torch_mounted2" parent="." unique_id=1745634458 instance=ExtResource("1_rq8lj")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1543055926]
+shape = SubResource("BoxShape3D_i8hmv")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=2028135418]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0.32)
+light_color = Color(0.8539496, 0.30092147, 0, 1)
