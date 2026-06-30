@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bay0b7l2uc0ch"]
+
+[ext_resource type="PackedScene" uid="uid://cl6231xrw2fx0" path="res://assets/custommodels/broquechaser.glb" id="1_4i5kc"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_q4k5x"]
+
+[node name="broquechaser" type="StaticBody3D" unique_id=1856270797]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=831287382]
+transform = Transform3D(1.3, 0, 0, 0, 2.38, 0, 0, 0, 1, 0, 1.5799999, 0)
+shape = SubResource("SphereShape3D_q4k5x")
+
+[node name="broquechaser" parent="." unique_id=1721635866 instance=ExtResource("1_4i5kc")]
+transform = Transform3D(0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 0, -0.4, 0)

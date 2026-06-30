@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://bljoxubyj180s" path="res://assets/brackeys_3d_game_assets/dungeon_assets/props/banner_mounted.glb" id="8_kek77"]
 [ext_resource type="PackedScene" uid="uid://d3lcmbvdm1ivs" path="res://assets/brackeys_3d_game_assets/dungeon_assets/props/torch_mounted.glb" id="9_4c57u"]
 [ext_resource type="PackedScene" uid="uid://cnpd0not16hbh" path="res://assets/3d_scenes/walltorch.tscn" id="10_4c57u"]
+[ext_resource type="PackedScene" uid="uid://bay0b7l2uc0ch" path="res://scenes/broquechaser.tscn" id="11_efxa6"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ig7tw"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -331,3 +332,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.3, 17.789999, 4.3999996, 12.53
 
 [node name="ceiling12" parent="." unique_id=1081693859 instance=ExtResource("7_kek77")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.3, 17.789999, 3.9099996, 14.41)
+
+[node name="broquechaser" parent="." unique_id=1856270797 instance=ExtResource("11_efxa6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5619364, 4.4300003, 20.169552)
