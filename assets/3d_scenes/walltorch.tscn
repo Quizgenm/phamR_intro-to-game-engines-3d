@@ -14,3 +14,4 @@ shape = SubResource("BoxShape3D_i8hmv")
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=2028135418]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 0.32)
 light_color = Color(0.8539496, 0.30092147, 0, 1)
+light_energy = 3.535
